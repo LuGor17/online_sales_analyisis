@@ -5,9 +5,9 @@ def main():
     manager = ProductManager()
 
     # Dodavanje nekoliko proizvoda
-    product1 = Product("Laptop", 1200, 5)
-    product2 = Product("Mouse", 25, 10)
-    product3 = Product("Keyboard", 45, 7)
+    product1 = Product("Gaming Laptop", 1500, 3)
+    product2 = Product("Wireless Mouse", 30, 15)
+    product3 = Product("Mechanical Keyboard", 60, 5)
 
     manager.add_product(product1)
     manager.add_product(product2)
